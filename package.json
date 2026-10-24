@@ -2,7 +2,7 @@
   "name": "sakusiaga-android",
   "version": "1.1.0",
   "private": true,
-  "description": "SakuSiaga — pembungkus Android (Capacitor) + alarm obat layar penuh (full-screen intent)",
+  "description": "SakuSiaga - aplikasi darurat + alarm obat layar penuh (Android)",
   "scripts": {
     "android:add": "cap add android",
     "android:native": "node apply-native.mjs",
@@ -15,6 +15,7 @@
     "@capacitor/core": "^6.2.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.2.0"
+    "@capacitor/cli": "^6.2.0",
+    "typescript": "^5.6.3"
   }
 }
